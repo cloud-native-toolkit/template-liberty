@@ -49,7 +49,7 @@ Use the IBM Garage for Cloud CLI to create the dev namespace
 ```$bash
 igc namespace dev --dev
 ```
-Use the IBM Garage for Cloud CLI to register the GIT Repo
+Switch to the `dev` namespace, then use the IBM Garage for Cloud CLI to register the GIT Repo
 ```$bash
 igc pipeline -n dev --tekton --pipeline ibm-appmod-liberty
 ```
